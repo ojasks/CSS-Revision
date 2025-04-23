@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        h1{
+            background-color:aquamarine;
+        }
+        body{
+            background-color: black;
+        }
+        .bg-orange{
+            background-color: orange;
+        }
+        #bg-green{
+            background-color: green;
+        }
+        a[target = "_blank"]{
+            background-color: lavender;
+        padding: 6px;     
+       }
+       h1,h2,h3{
+        background-color:lawngreen;
+       }
+       ul li{
+        background-color: deeppink;
+       }
+       header > a{
+        background-color: gold;
+       } 
+       img + p{
+        background-color: darkorange;
+       }
+    </style>
+</head>
+<body>
+    <h1>Curse of competence</h1>
+    <h2 class="bg-orange">Lorem ipsum, dolor sit amet consectetur adipisicing.</h2>
+    <h3 id="bg-green" class="bg-orange">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus!</h3>
+    <a target="parent"  href="https://google.com">google</a>
+    <a target="_blank"  href="https://google.com">GOOGLE</a>
+    <h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h1>
+    <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h2>
+    <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h3>
+    <ul>
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+    </ul>
+    <li>four</li>
+    <header>
+        <a href="#">Google</a>
+         <nav>
+            <ul>
+                <li>Home</li>
+                <a href="#">LOGO</a>
+            </ul>
+         </nav>
+         <a href="#">Bing</a>
+    </header>
+    <div>
+        <img src="#" alt="">
+        <p>Change me</p>
+        <p>Change me three</p>
+        <div>
+            <p>Change me two</p>
+        </div>
+       </div>
+       <a target="_blank"  href="https://google.com">GOOGLE</a> 
+       <a target="parent"  href="https://google.com">google</a>
+</body>
+</html>
+
+
+id > clas > type > ...
+margin
+padding
+# id
+.class
